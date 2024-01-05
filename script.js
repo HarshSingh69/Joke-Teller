@@ -44,5 +44,5 @@ async function getJokes(){
 }
 
 // Event Listener
-button.addEventListener('click', getJokes);
-audioElement.addEventListener('ended', toggleButton);
+button.addEventListener('click', getJokes());
+audioElement.addEventListener('ended', toggleButton());
